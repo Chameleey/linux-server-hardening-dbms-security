@@ -1,59 +1,91 @@
-# Linux Server Hardening & DBMS Security Project
+# 🔐 Linux Server Hardening & DBMS Security Project
+
+<p style="color:#0A1F44;">🛡️ <b>Future Security Analyst</b></p>
+
+---
 
 ## 📌 Overview
-This project demonstrates the setup and security configuration of a Linux-based server environment for a database-driven HR system.
+
+This project demonstrates the setup, configuration, and security hardening of a Linux-based server environment designed to support a database-driven HR system. It combines operating system security, database protection, and practical implementation of cybersecurity best practices.
+
+---
 
 ## 🛠️ Key Tasks
 
 ### 1. OS Selection & Comparison
-- Compared 5 Linux distributions (Ubuntu, Fedora, CentOS, OpenSUSE, Linux Mint)
-- Selected Ubuntu for its usability, security, and community support
+
+* Compared five Linux distributions: Ubuntu, Fedora, CentOS, OpenSUSE, and Linux Mint
+* Selected <b>Ubuntu</b> based on usability, stability, security features, and strong community support
 
 ### 2. Ubuntu Server Setup
-- Installed Ubuntu on a virtual machine
-- Configured system settings and environment
 
-### 3. Security Hardening
-Implemented multiple security controls:
-- SSH hardening (disable root login, key-based auth)
-- Firewall configuration (UFW)
-- Fail2Ban for brute-force protection
-- Automatic security updates
-- AppArmor access control
-- File Integrity Monitoring (AIDE)
-- Disk & data encryption
-
-### 4. Oracle DBMS Implementation
-- Installed Oracle Database
-- Designed HR database schema
-- Implemented:
-  - Role-Based Access Control (RBAC)
-  - Views for controlled access
-  - Virtual Private Database (VPD)
-  - Data encryption using DBMS_CRYPTO
-  - Data masking
-  - Fine-Grained Auditing (FGA)
-
-### 5. Big Data Security Analysis
-- Compared Big Data vs Traditional DB security
-- Identified threats:
-  - Data breaches
-  - DoS attacks
-  - Data tampering
-  - MITM attacks
-  - Insider threats
-- Proposed mitigation strategies
-
-## 🔐 Key Skills Demonstrated
-- Linux system administration
-- Server hardening & security configuration
-- Database security (Oracle)
-- Access control & encryption
-- Cybersecurity risk awareness
-
-## 📂 File
-- `Linux_Server_Hardening_and_DBMS_Security.pdf`
+* Installed Ubuntu on a virtual machine (VirtualBox)
+* Configured system environment, users, and initial settings
 
 ---
 
-⭐ This project showcases practical skills in system security, database protection, and secure infrastructure setup.
+### 🔐 Security Hardening
+
+* 🔑 SSH Hardening (disable root login, enforce key-based authentication)
+* 🔥 Firewall configuration using UFW
+* 🚫 Fail2Ban to prevent brute-force attacks
+* 🔄 Automatic security updates (unattended-upgrades)
+* 🛡️ AppArmor for mandatory access control
+* 📁 File Integrity Monitoring using AIDE
+* 🔐 Data protection through encryption (at rest & in transit)
+
+---
+
+### 🗄️ Oracle DBMS Implementation
+
+* Installed and configured Oracle Database on Linux
+* Designed and implemented an HR database schema
+
+<b>Security Features:</b>
+
+* 👥 Role-Based Access Control (RBAC)
+* 👁️ Controlled access using Views
+* 🔒 Virtual Private Database (VPD)
+* 🔐 Data encryption using DBMS_CRYPTO
+* 🕵️ Data masking for sensitive fields
+* 📊 Fine-Grained Auditing (FGA)
+
+---
+
+### 📊 Big Data Security Analysis
+
+<b>Identified Threats:</b>
+
+* Data breaches
+* Denial-of-Service (DoS) attacks
+* Data tampering
+* Man-in-the-Middle (MitM) attacks
+* Insider threats
+
+<b>Mitigation strategies were proposed based on modern cybersecurity frameworks.</b>
+
+---
+
+## 🔐 Key Skills Demonstrated
+
+* Linux system administration
+* Server hardening & security configuration
+* Database security (Oracle DBMS)
+* Access control & encryption techniques
+* Cybersecurity risk analysis and mitigation
+
+---
+
+## 📂 Project File
+
+* <code>Linux_Server_Hardening_and_DBMS_Security.pdf</code>
+
+---
+
+## ⚠️ Security Note
+
+Passwords and sensitive credentials are not included in this repository for security reasons.
+
+---
+
+⭐ This project highlights practical experience in securing systems, protecting databases, and implementing real-world cybersecurity controls in a structured environment.
